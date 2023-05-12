@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: rgb(199, 253, 253);
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  border: 3px solid rgb(181, 181, 255);
+  width: 60%;
+  margin: auto;
+  background-color: #efecec;
+  height: 100vh;
+  max-height: 100%;
+  overflow: auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+#daily-goal {
+  border-color: rgb(184, 182, 182);
+  padding: 15px;
+  width: 60%;
+  font-size: 40px;
+  color: white;
+  background-color: rgb(233, 147, 147);
+}
+
+#daily-goal::placeholder {
+  font-size: 40px;
+  text-align: left;
+  margin: auto;
+  color: aliceblue;
+}
+
+#daily-goal:focus {
+  background-color: rgb(236, 170, 170);
+}
